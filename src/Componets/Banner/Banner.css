@@ -1,0 +1,48 @@
+.sub-container{
+    display: flex;
+     background: rgb(10,49,97);
+    background: linear-gradient(172deg, rgba(10,49,97,1) 7%, rgba(3,43,60,1) 78%, rgba(13,71,120,1) 95%);
+
+}
+.context{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 65px;
+    align-items: flex-start;
+    width: 50%;
+}
+.context h2, p{
+    color: white;
+    font-family: 'Rubik';
+}
+
+/* Checkboxex*/
+      
+input[type="checkbox"]{
+    appearance: none;
+    background-color: transparent;
+    border: 0.1px solid white;
+    border-radius: 16%;
+    height: 40px;
+    width: 40px;
+
+}
+.checkbox-container {
+    display: flex;
+}
+.checkbox-container label{
+    color: white;
+}
+
+.checkbox-container input:hover{
+background-color: rgba(0, 0, 0, 0.144);
+cursor: pointer;
+}
+
+/* logo picture*/
+.logo-container{
+    display: flex;
+    background-color: red;
+   width: 50%;
+}

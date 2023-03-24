@@ -1,0 +1,71 @@
+.main p{ 
+color: black;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+}
+.left{
+width: 50%;
+}
+.right{
+
+    width: 50%;
+}
+.homapage-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub-checkbox {
+    display: flex;
+
+}
+
+.sub-checkbox input[type="checkbox"]{
+    appearance: none;
+    background-color: #D9D9D9; 
+    border-radius: 8px;
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+}
+input {
+    margin:0 12px 0 0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    font-weight: 300;
+  }
+ label{
+    font-weight: 700;
+    text-indent: -10px;
+}
+.sub-checkbox .sub-label{
+ 
+    font-size: 14px;
+}
+.main{
+    width: 44%;
+    padding: 102px;
+}
+.side-bar{
+    width: 40%;
+}
+.main p{
+    font-family: sans-serif;
+    font-size: 19px;
+}
+.sub-label{
+    font-family: 'DM Sans';
+font-style: normal;
+font-size: 20px;
+line-height: 36px;
+letter-spacing: -0.03em;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        width: 100%;
+    }
+}

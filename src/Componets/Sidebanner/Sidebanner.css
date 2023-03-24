@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(180deg, #F7FAFF 0%, rgba(232, 240, 255, 0) 100%);
+}
+.logo{
+
+
+background: linear-gradient(180deg, #0B749F 0%, #05445E 130.81%);
+}
+.checkboxes{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background: rgb(3,66,94);
+    background: linear-gradient(180deg, rgba(3,66,94,1) 75%, rgba(34,76,116,1) 82%);
+}
+.card{
+    border: 2px solid #cecfce;
+    width: 80%;
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 2px -2px 20px 14px #e2e9ec;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+    justify-content: center;
+}
+.card p{
+ 
+color: black;
+}
+.btn{
+ 
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+h3{
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
