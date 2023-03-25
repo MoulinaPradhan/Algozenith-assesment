@@ -1,11 +1,4 @@
-body{
-    background: linear-gradient(180deg, #F7FAFF 0%, rgba(232, 240, 255, 0) 100%);
-}
-.logo{
 
-
-background: linear-gradient(180deg, #0B749F 0%, #05445E 130.81%);
-}
 .checkboxes{
     display: flex;
     padding: 20px;
@@ -21,6 +14,7 @@ background: linear-gradient(180deg, #0B749F 0%, #05445E 130.81%);
     flex-direction: row-reverse;
     align-content: flex-end;
     justify-content: center;
+    margin-top: 80px;
 }
 .card p{
  
@@ -41,4 +35,56 @@ h3{
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+    .logo-img {
+        background-image: linear-gradient(41deg, rgb(255 255 255), rgb(0 0 0 / 0%)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJU2P7L07PgBX3sGN5HakaVKsELzYgxYmX-2sSKxKA0A&s);
+        width: 36%;
+        height: 93px;
+        background-size: cover;
+        position: relative;
+        bottom: 49px;
+        color: white;
+        padding: 20px;
+    
+}.card-header{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 30px;
+    font-family: "sans-serif";
+}
+.sub-heading {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: space-around;
+    justify-content: space-between;
+
+
+}
+.new-rate{
+    font-weight: 800;
+    font-size: 23px;
+    background: -webkit-linear-gradient(25deg,#0006b5, #050a2e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.strike-text{
+    font-weight: 800;
+    font-size: 23px;
+    background: -webkit-linear-gradient(25deg,#7e7e85, #474748);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left-heading{
+    margin-left: 30px;
+}
+.side-label{
+    font-weight: 400;
+    color: #eee;
+    position: relative;
+    /* vertical-align: bottom; */
+    bottom: 33px;
+    left: 54px;
 }
