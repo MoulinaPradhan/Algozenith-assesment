@@ -1,20 +1,31 @@
-.sub-container{
-    display: flex;
-     background: rgb(10,49,97);
-    background: linear-gradient(172deg, rgba(10,49,97,1) 7%, rgba(3,43,60,1) 78%, rgba(13,71,120,1) 95%);
 
+
+
+.sub-container{
+
+        display: flex;
+        background: rgb(10,49,97);
+        background: linear-gradient(172deg, rgba(10,49,97,1) 7%, rgba(3,43,60,1) 78%, rgba(13,71,120,1) 95%);
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: center;
+ 
 }
 .context{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 65px;
+    margin-left: 13%;
     align-items: flex-start;
     width: 50%;
 }
-.context h2, p{
+.context h1, p{
     color: white;
-    font-family: 'Rubik';
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.context h1{
+    font-size:50px;
 }
 
 /* Checkboxex*/
@@ -43,6 +54,6 @@ cursor: pointer;
 /* logo picture*/
 .logo-container{
     display: flex;
-    background-color: red;
+    background-image: url("./bg.png");
    width: 50%;
 }

@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Banner.css"
+import Img from './bg.png';
 
 export const Banner = () => {
   return (
     <div className="sub-container">
     <div className="context">
-<h2>Be Better at DSA and CP</h2>
+<h1>Be Better at DSA & CP</h1>
 <p>Lorem ipsum dolar sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 <div className='button-container'>
     <button>Join now &rarr; </button>
@@ -22,9 +23,11 @@ export const Banner = () => {
     <label for ="check4">Lorem ipsum dolor sit amet</label>
 </div>
 </div>
-    <div  className='logo-container'>
-<h2>lhdhhd</h2>
-    </div>
+    <img className='logo-container'
+ src={Img}
+    >
+
+    </img>
     </div>
   )
 }
