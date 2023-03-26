@@ -9,7 +9,7 @@
 .card{
     border: 2px solid #cecfce;
     width: 80%;
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 16px 16px 16px 16px;
     box-shadow: 2px -2px 20px 14px #e2e9ec;
     flex-direction: row-reverse;
     align-content: flex-end;
@@ -45,6 +45,7 @@ h3{
         position: relative;
         bottom: 49px;
         color: white;
+        right:10px;
         padding: 20px;
     
 }.card-header{
@@ -87,4 +88,9 @@ h3{
     /* vertical-align: bottom; */
     bottom: 33px;
     left: 54px;
+}
+@media only screen and (max-width: 600px) {
+.card{
+    margin-top: 10px;
+}
 }

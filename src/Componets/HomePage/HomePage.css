@@ -2,8 +2,8 @@
 color: black;
 }
 h1{
-    font-family: sans-serif;
-    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800!important;
     font-size: 60px;
 }
 .left{
@@ -73,5 +73,39 @@ input {
 @media only screen and (max-width: 600px) {
     .main{
         width: 100%;
+       }
+       .main h1{
+        font-size: 40px;
+        text-align: center;
+       }
+       .main p{
+        text-align: center;
+       }
+       .sub-checkbox input[type="checkbox"]{
+      
+        background-color: white; 
+        border-radius: 8px;
+        border: 1px solid rgba(89, 0, 255, 0.212);
+        height: 60px;
+        width: 60px;
+       
     }
+    .sub-checkbox  label{
+        font-size: 15px;
+        left: 80px;
+       bottom: 50px;
+    }
+    .sub-checkbox .sub-label{
+        font-size: 11px;
+        bottom: 40px;
+    }
+    .homapage-container .side-bar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+        margin-top: -50px;
+}
 }

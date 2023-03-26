@@ -27,23 +27,43 @@
 .context h1{
     font-size:50px;
 }
+.button-container{
+display: flex;
+width: 100%;
+gap:15px
+}
+.join-btn{
+    color: #05243b;
+    font-weight: 600!important;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgba(0, 140, 255, 0.212));
+}
+.view{
+    background-image: linear-gradient(to right, #033347 ,#015376);
+    color: white;
+    border: 1px solid #015376 !important;
+}
 
 /* Checkboxex*/
       
 input[type="checkbox"]{
     appearance: none;
     background-color: transparent;
-    border: 0.1px solid white;
+    border: 0.1px solid rgba(213, 238, 255, 0.555);
     border-radius: 16%;
-    height: 40px;
-    width: 40px;
-
+    height: 50px;
+    width: 50px;
 }
+
 .checkbox-container {
     display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 20px;
+ 
 }
 .checkbox-container label{
     color: white;
+    font-size: 15px;
 }
 
 .checkbox-container input:hover{
@@ -56,4 +76,25 @@ cursor: pointer;
     display: flex;
     background-image: url("./bg.png");
    width: 50%;
+}
+
+/* responsiveness*/
+@media only screen and (max-width: 600px) {
+    .sub-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .context{
+        width:100%
+    }
+    .button-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-container{
+        display: flex;
+        width: 100%;
+    }
 }
